@@ -1,9 +1,10 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
-const campingGear = ["Sleeping Bag", "Tent", "Flashlight", "Water Bottle"];
-const hotWeatherGear = ["Hat", "Sun Screen", "Sun Glasses"];
+const campingGear = ["Sleeping Bag", "Sleeping Pad", "Pillow", "Tent", "Flashlight", "Water Bottle",  "Camp Chair", "Cooking Utensils", "Bug Spray", "First-Aid Kit", "Hiking Boots", "Extra Clothes", "Rain Gear", "Day-Pack", "Fire Starter", "Trash Bags", "Extra Tarp", "Rope", "Portable Charger"];
+const hotWeatherGear = ["Hat", "Sun Screen", "Sun Glasses", "Water Bottle"];
 const coldWeatherGear = ["Hat", "Coat", "Hand Warmers", "Gloves", "Wool Socks"];
-const beachGear = ["Swim Suit", "Towel", "Umbrella", "Chair", "Sun Screen", "Cooler"];
+const beachGear = ["Swim Suit", "Towel", "Umbrella", "Chair", "Sun Screen", "Cooler", "Sandals"];
+const campingFunGear = ["Throwable (Frisbee, Football etc...)", "Smores Ingredients", "Yard Game (Spikeball, Cornhole, etc...)", "Playing Cards", "Bicycle", "Hammock", "Sandals"];
 
 function addTask() {
     if (inputBox.value === '') {
