@@ -4,7 +4,7 @@ const campingGear = ["Sleeping Bag", "Sleeping Pad", "Pillow", "Tent", "Flashlig
 const hotWeatherGear = ["Hat", "Sun Screen", "Sun Glasses", "Water Bottle"];
 const coldWeatherGear = ["Hat", "Coat", "Hand Warmers", "Gloves", "Wool Socks"];
 const beachGear = ["Swim Suit", "Towel", "Umbrella", "Chair", "Sun Screen", "Cooler", "Sandals"];
-const campingFunGear = ["Throwable (Frisbee, Football etc...)", "Smores Ingredients", "Yard Game (Spikeball, Cornhole, etc...)", "Playing Cards", "Bicycle", "Hammock", "Sandals"];
+const campingFunGear = ["Throwable (Frisbee, Football etc...)", "Smores Ingredients", "Yard Game (Spikeball, Cornhole, etc...)", "Playing Cards", "Bicycle", "Hammock"];
 
 function addTask() {
     if (inputBox.value === '') {
