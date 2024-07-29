@@ -121,4 +121,14 @@ ul li span:hover {
 
 .prefabs button {
     margin: 5px;
+    background-color: rgb(62, 214, 62);
+    transition: 0.4s;
+}
+
+.prefabs button:hover {
+    transform: scale(1.1);
+}
+
+#clear {
+    background-color: tomato;
 }

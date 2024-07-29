@@ -3,6 +3,7 @@ const listContainer = document.getElementById("list-container");
 const campingGear = ["Sleeping Bag", "Tent", "Flashlight", "Water Bottle"];
 const hotWeatherGear = ["Hat", "Sun Screen", "Sun Glasses"];
 const coldWeatherGear = ["Hat", "Coat", "Hand Warmers", "Gloves", "Wool Socks"];
+const beachGear = ["Swim Suit", "Towel", "Umbrella", "Chair", "Sun Screen", "Cooler"];
 
 function addTask() {
     if (inputBox.value === '') {
@@ -32,25 +33,25 @@ function showTask() {
     listContainer.innerHTML = localStorage.getItem("data");
 }
 
-function camping() {
-    for (let i = 0; i < campingGear.length; i++) {
-        createTask(campingGear[i]);
+function group(list) {
+    for (let i = 0; i < list.length; i++) {
+        createTask(list[i]);
     }
 }
 
-function hotWeather() {
-    for (let i = 0; i < hotWeatherGear.length; i++) {
-        createTask(hotWeatherGear[i]);
-    }
-}
-
-function coldWeather() {
-    for (let i = 0; i < coldWeatherGear.length; i++) {
-        createTask(coldWeatherGear[i]);
-    }
+function clearList() {
+    listContainer.innerHTML = "";
+    saveData();
 }
 
 function createTask(item) {
+    let x = document.getElementsByTagName('li');
+    for (i = 0; i < x.length; i++) {
+        if (x[i].innerHTML.includes(item)) {
+            inputBox.value = '';
+            return;
+        }
+    }
     let li = document.createElement("li");
     li.innerHTML = item;
     listContainer.appendChild(li);
