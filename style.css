@@ -61,7 +61,7 @@ button {
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #ff7945;
+    background: #a245ff;
     color: white;
     border-radius: 30px;
     cursor: pointer;
@@ -121,7 +121,7 @@ ul li span:hover {
 
 .prefabs button {
     margin: 5px;
-    background-color: rgb(62, 214, 62);
+    background-color: rgb(83, 199, 83);
     transition: 0.4s;
 }
 
@@ -131,4 +131,5 @@ ul li span:hover {
 
 #clear {
     background-color: tomato;
+    margin: 20px auto;
 }
