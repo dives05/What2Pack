@@ -5,6 +5,30 @@ const hotWeatherGear = ["Hat", "Sun Screen", "Sun Glasses", "Water Bottle"];
 const coldWeatherGear = ["Hat", "Coat", "Hand Warmers", "Gloves", "Wool Socks"];
 const beachGear = ["Swim Suit", "Towel", "Umbrella", "Chair", "Sun Screen", "Cooler", "Sandals"];
 const campingFunGear = ["Throwable (Frisbee, Football etc...)", "Smores Ingredients", "Yard Game (Spikeball, Cornhole, etc...)", "Playing Cards", "Bicycle", "Hammock"];
+const college = [
+    "Bedding (sheets, pillows, blanket, mattress protector)",
+    "Towels (bath and hand towels)",
+    "Clothing (seasonal clothing, underwear, socks)",
+    "Laundry supplies (detergent, dryer sheets, laundry basket)",
+    "Toiletries (toothbrush, toothpaste, shampoo, soap, etc.)",
+    "School supplies (notebooks, pens, pencils, highlighters)",
+    "Laptop and charger",
+    "Phone and charger",
+    "Personal identification (ID, driver's license)",
+    "First aid kit (band-aids, pain relievers, etc.)",
+    "Kitchen supplies (reusable water bottle, microwave-safe dishes, utensils)",
+    "Non-perishable snacks (granola bars, chips, etc.)",
+    "Cleaning supplies (disinfectant wipes, broom, dustpan)",
+    "Comfort items (photos, decorations, favorite books)",
+    "Power strips and extension cords",
+    "Alarm clock or bedside lamp",
+    "Backpack or tote bag",
+    "Reusable shopping bags",
+    "Umbrella and rain gear",
+    "Bike or other transportation (if applicable)",
+    "Basic tools (screwdriver, tape, etc.)"
+];
+
 
 function addTask() {
     if (inputBox.value === '') {
